@@ -1,0 +1,52 @@
+.resume-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.resume-container h1 {
+  margin-bottom: 0.2rem;
+  color: #1976d2;
+}
+.resume-container h2 {
+  margin-top: 0;
+  color: #555;
+  font-weight: 400;
+}
+.contact-info {
+  margin-bottom: 1.5rem;
+}
+.contact-info a {
+  color: #1976d2;
+  text-decoration: none;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: disc inside;
+  margin-bottom: 1.5rem;
+}
+.skills-list li {
+  min-width: 200px;
+}
+.experience {
+  margin-bottom: 1.5rem;
+}
+.download-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background: #1976d2;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.download-btn:hover {
+  background: #125ea2;
+}
