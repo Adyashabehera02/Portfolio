@@ -10,6 +10,11 @@ body, html {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Adjust this value to match your navbar height */
+}
+
 /* Digital animated background dots */
 .digital-bg {
   position: fixed;
