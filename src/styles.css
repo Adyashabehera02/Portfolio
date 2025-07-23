@@ -7,3 +7,19 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px; /* Adjust if your navbar is fixed and covers section tops */
 }
+.seminar-image {
+  width: 100%;          /* Take full width of the container */
+  max-width: 350px;     /* You can reduce this if you want it smaller */
+  height: auto;         /* Maintain aspect ratio */
+  display: block;
+  object-fit: contain;  /* Ensures full image is shown inside its box */
+  margin: 0 auto;       /* Center horizontally */
+  border-radius: 10px;
+}
+.achievement-image-card {
+  padding: 10px;
+  text-align: center;
+  overflow: visible;     /* Ensure it doesn't crop */
+  max-width: 400px;      /* Optional: control size */
+  margin: 0 auto;
+}
